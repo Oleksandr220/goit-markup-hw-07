@@ -4,6 +4,19 @@ footer {
   background-color: $DarkBgColor;
 
   padding: 60px 0px;
+
+  & .social-link {
+    background-color: $FooterIconColor;
+    color: $text-color-snow;
+
+    transition: color 250ms $trans-duration,
+      background-color 250ms $trans-duration;
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
+  }
 }
 
 .address {
@@ -30,11 +43,11 @@ footer {
   letter-spacing: 0.03em;
 
   transition: color 250ms $trans-duration;
-}
 
-.address-link:hover,
-.address-link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .address-link:last-child {
@@ -76,23 +89,10 @@ footer {
 
 .accession-item {
   margin-right: 10px;
-}
 
-.accession-item:last-child {
-  margin-right: 0;
-}
-
-.footer .social-link {
-  background-color: $FooterIconColor;
-  color: $text-color-snow;
-
-  transition: color 250ms $trans-duration,
-    background-color 250ms $trans-duration;
-}
-
-.footer .social-link:hover,
-.footer .social-link:focus {
-  background-color: $accent-color;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .accession-icon {

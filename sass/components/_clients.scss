@@ -33,12 +33,12 @@
   color: $IconColor;
 
   transition: color 250ms $trans-duration;
-}
 
-.client-link:hover,
-.client-link:focus {
-  color: $accent-color;
-  border-color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
 }
 
 .icon-client {

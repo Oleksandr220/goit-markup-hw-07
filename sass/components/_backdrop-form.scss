@@ -28,13 +28,13 @@
 
   transition: border 250ms $trans-duration;
   cursor: pointer;
-}
 
-.input-info:focus {
-  outline: none;
-  border: 2px solid #2196f3;
-  box-sizing: border-box;
-  border-radius: 4px;
+  &:focus {
+    outline: none;
+    border: 2px solid #2196f3;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
 
 .label {
@@ -71,13 +71,13 @@
 
   transition: border 250ms $trans-duration;
   cursor: pointer;
-}
 
-.comment-area:focus {
-  outline: none;
-  border: 2px solid #2196f3;
-  box-sizing: border-box;
-  border-radius: 4px;
+  &:focus {
+    outline: none;
+    border: 2px solid #2196f3;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
 
 .field-checkbox {
@@ -95,22 +95,22 @@
   letter-spacing: 0.03em;
 
   color: $sec-text-color;
-}
 
-.text-checkbox::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  transform: translateY(-50%);
-  background-color: $WhiteBgColor;
-  background-image: url(../images/icon-check-black.svg);
-  border-radius: 2px;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    transform: translateY(-50%);
+    background-color: $WhiteBgColor;
+    background-image: url(../images/icon-check-black.svg);
+    border-radius: 2px;
 
-  transition: background-color 250ms $trans-duration;
+    transition: background-color 250ms $trans-duration;
+  }
 }
 
 .checkbox:checked + .text-checkbox::after {
@@ -144,4 +144,3 @@
   height: 1px;
   margin: -1px;
 }
-

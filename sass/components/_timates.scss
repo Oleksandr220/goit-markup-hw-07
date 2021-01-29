@@ -86,12 +86,12 @@
 
   transition: color 250ms $trans-duration,
     background-color 250ms $trans-duration;
-}
 
-.social-link:hover,
-.social-link:focus {
-  color: $text-color-snow;
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $text-color-snow;
+    background-color: $accent-color;
+  }
 }
 
 .social-icon {

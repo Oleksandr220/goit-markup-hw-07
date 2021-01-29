@@ -37,15 +37,15 @@
   margin-right: 50px;
 
   transition: color 250ms $trans-duration;
-}
 
-.nav-link.contacts:last-child {
-  margin-right: 0;
-}
+  &:last-child {
+    margin-right: 0;
+  }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .nav-link.current {

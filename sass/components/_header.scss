@@ -2,10 +2,13 @@
 
 .page-header {
   background-color: $WhiteBgColor;
-}
+  border-bottom: 1px solid #ececec;
 
-li {
-  list-style-type: none;
+  & .conteiner {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+  }
 }
 
 .conteiner {
@@ -14,16 +17,6 @@ li {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.page-header > .conteiner {
-  display: flex;
-  align-items: center;
-  padding: 0px 15px 0px 15px;
-}
-
-.page-header {
-  border-bottom: 1px solid #ececec;
 }
 
 .header-contacts {

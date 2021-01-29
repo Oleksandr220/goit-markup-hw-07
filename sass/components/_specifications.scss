@@ -15,9 +15,10 @@
 
 .specifications-items {
   margin-right: 30px;
-}
-.specifications-items:last-child {
-  margin-right: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .specifications-title {

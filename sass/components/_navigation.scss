@@ -1,0 +1,65 @@
+/* Navigation */
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0;
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-list:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  padding: 32px 0px;
+  font-weight: $SecondoryFontWeight;
+  font-size: $PrimeryTextSize;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $primery-text-color;
+
+  transition: color 250ms $trans-duration;
+}
+
+.nav-link.contacts {
+  display: flex;
+  align-items: center;
+  color: $sec-text-color;
+  margin-right: 50px;
+
+  transition: color 250ms $trans-duration;
+}
+
+.nav-link.contacts:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: $accent-color;
+}
+
+.nav-link.current {
+  position: relative;
+  color: $accent-color;
+}
+
+.nav-link.current::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: $accent-color;
+}

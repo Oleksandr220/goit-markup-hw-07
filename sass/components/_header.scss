@@ -1,0 +1,37 @@
+/* HEADER */
+
+.page-header {
+  background-color: $WhiteBgColor;
+}
+
+li {
+  list-style-type: none;
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header > .conteiner {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.icon-contacts {
+  margin-right: 10px;
+  fill: currentColor;
+}

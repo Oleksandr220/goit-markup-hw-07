@@ -1,0 +1,52 @@
+/* Specification */
+
+.specifications {
+  padding-top: 88px;
+  padding-bottom: 94px;
+}
+
+.specifications-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: start;
+  align-items: center;
+}
+
+.specifications-items {
+  margin-right: 30px;
+}
+.specifications-items:last-child {
+  margin-right: 0;
+}
+
+.specifications-title {
+  color: $primery-text-color;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: $PrimeryFontWeight;
+  font-size: $PrimeryTextSize;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.specifications-text {
+  color: $sec-text-color;
+  margin: 0;
+  font-size: $PrimeryTextSize;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.specification-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: $SecondoryBgColor;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
